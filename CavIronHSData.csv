@@ -1,0 +1,572 @@
+NGA,Date.From,Date.To,Value,Variable
+Latium,-10000,-401,A,Cavalry
+Latium,-400,2000,P,Cavalry
+Paris Basin,-10000,-201,A,Cavalry
+Paris Basin,-200,2000,P,Cavalry
+Iceland,-10000,799,A,Cavalry
+Iceland,800,1000,A~P,Cavalry
+Iceland,1001,2000,P,Cavalry
+Upper Egypt,-10000,-701,A,Cavalry
+Upper Egypt,-700,2000,P,Cavalry
+Niger Inland Delta,-10000,299,A,Cavalry
+Niger Inland Delta,300,2000,P,Cavalry
+Ghanaian Coast,-10000,1499,A,Cavalry
+Ghanaian Coast,1500,2000,P,Cavalry
+Crete,-10000,-501,A,Cavalry
+Crete,-500,2000,P,Cavalry
+Galilee,-10000,-701,A,Cavalry
+Galilee,-700,2000,P,Cavalry
+Southern Mesopotamia,-10000,-701,A,Cavalry
+Southern Mesopotamia,-700,2000,P,Cavalry
+Susiana,-10000,-701,A,Cavalry
+Susiana,-700,2000,P,Cavalry
+Konya Plain,-10000,-651,A,Cavalry
+Konya Plain,-650,2000,P,Cavalry
+Yemeni Coastal Plain,-10000,199,A,Cavalry
+Yemeni Coastal Plain,200,2000,P,Cavalry
+Kachi Plain,-10000,-551,A,Cavalry
+Kachi Plain,-550,2000,P,Cavalry
+Middle Ganga,-10000,-401,A,Cavalry
+Middle Ganga,-400,2000,P,Cavalry
+Deccan,-10000,-271,A,Cavalry
+Deccan,-270,2000,P,Cavalry
+Garo Hills,-10000,2000,A,Cavalry
+Cambodian Basin,-10000,-234,A,Cavalry
+Cambodian Basin,-235,2000,P,Cavalry
+Central Java,-10000,699,A,Cavalry
+Central Java,700,2000,P,Cavalry
+Kapuasi Basin,-10000,2000,A,Cavalry
+Middle Yellow River Valley,-10000,-401,A,Cavalry
+Middle Yellow River Valley,-400,2000,P,Cavalry
+Kansai,-15000,499,A,Cavalry
+Kansai,500,2000,P,Cavalry
+Southern China Hills,-10000,2000,A,Cavalry
+Sogdiana,-10000,-901,A,Cavalry
+Sogdiana,-900,2000,P,Cavalry
+Orkhon Valley,-10000,-701,A,Cavalry
+Orkhon Valley,-700,2000,P,Cavalry
+Lena River Valley,-10000,1349,A,Cavalry
+Lena River Valley,1350,2000,P,Cavalry
+Valley of Oaxaca,-10000,1519,A,Cavalry
+Valley of Oaxaca,1520,2000,P,Cavalry
+Cahokia,-10000,1849,A,Cavalry
+Cahokia,1850,2000,P,Cavalry
+Finger Lakes,-10000,1749,A,Cavalry
+Finger Lakes,1750,2000,P,Cavalry
+Cuzco,-10000,1532,A,Cavalry
+Cuzco,1533,2000,P,Cavalry
+North Colombia,-10000,1599,A,Cavalry
+North Colombia,1600,2000,P,Cavalry
+Lowland Andes,-10000,2000,A,Cavalry
+Big Island Hawaii,-10000,2000,A,Cavalry
+Oro PNG,-10000,2000,A,Cavalry
+Chuuk Islands,-10000,2000,A,Cavalry
+Basin of Mexico,-10000,1519,A,Cavalry
+Basin of Mexico,1520,2000,P,Cavalry
+Latium,-10000,-801,A,Iron_crit
+Latium,-800,2000,P,Iron_crit
+Paris Basin,-10000,-701,A,Iron_crit
+Paris Basin,-700,2000,P,Iron_crit
+Iceland,-10000,899,A,Iron_crit
+Iceland,900,2000,P,Iron_crit
+Upper Egypt,-10000,-601,A,Iron_crit
+Upper Egypt,-600,2000,P,Iron_crit
+Niger Inland Delta,-10000,-501,A,Iron_crit
+Niger Inland Delta,-500,2000,P,Iron_crit
+Ghanaian Coast,-10000,-301,A,Iron_crit
+Ghanaian Coast,-300,2000,P,Iron_crit
+Crete,-10000,-901,A,Iron_crit
+Crete,-900,2000,P,Iron_crit
+Galilee,-10000,-901,A,Iron_crit
+Galilee,-900,2000,P,Iron_crit
+Southern Mesopotamia,-10000,-801,A,Iron_crit
+Southern Mesopotamia,-800,2000,P,Iron_crit
+Susiana,-10000,-801,A,Iron_crit
+Susiana,-800,2000,P,Iron_crit
+Konya Plain,-10000,-901,A,Iron_crit
+Konya Plain,-900,2000,P,Iron_crit
+Yemeni Coastal Plain,-10000,-501,A,Iron_crit
+Yemeni Coastal Plain,-500,2000,P,Iron_crit
+Kachi Plain,-10000,-1001,A,Iron_crit
+Kachi Plain,-1000,2000,P,Iron_crit
+Middle Ganga,-10000,-1401,A,Iron_crit
+Middle Ganga,-1400,2000,P,Iron_crit
+Deccan,-10000,-901,A,Iron_crit
+Deccan,-900,2000,P,Iron_crit
+Garo Hills,-10000,-101,A,Iron_crit
+Garo Hills,-100,2000,P,Iron_crit
+Cambodian Basin,-10000,-301,A,Iron_crit
+Cambodian Basin,-300,2000,P,Iron_crit
+Central Java,-10000,499,A,Iron_crit
+Central Java,500,2000,P,Iron_crit
+Kapuasi Basin,-10000,999,A,Iron_crit
+Kapuasi Basin,1000,2000,P,Iron_crit
+Middle Yellow River Valley,-10000,-301,A,Iron_crit
+Middle Yellow River Valley,-300,2000,P,Iron_crit
+Kansai,-15000,-101,A,Iron_crit
+Kansai,-100,2000,P,Iron_crit
+Southern China Hills,-10000,599,A,Iron_crit
+Southern China Hills,600,2000,P,Iron_crit
+Sogdiana,-10000,-801,A,Iron_crit
+Sogdiana,-800,2000,P,Iron_crit
+Orkhon Valley,-10000,-301,A,Iron_crit
+Orkhon Valley,-300,2000,P,Iron_crit
+Lena River Valley,-10000,-1,A,Iron_crit
+Lena River Valley,0,2000,P,Iron_crit
+Valley of Oaxaca,-10000,1519,A,Iron_crit
+Valley of Oaxaca,1520,2000,P,Iron_crit
+Cahokia,-10000,1849,A,Iron_crit
+Cahokia,1850,2000,P,Iron_crit
+Finger Lakes,-10000,1749,A,Iron_crit
+Finger Lakes,1750,2000,P,Iron_crit
+Cuzco,-10000,1532,A,Iron_crit
+Cuzco,1533,2000,P,Iron_crit
+North Colombia,-10000,1599,A,Iron_crit
+North Colombia,1600,2000,P,Iron_crit
+Lowland Andes,-10000,1849,A,Iron_crit
+Lowland Andes,1850,2000,P,Iron_crit
+Big Island Hawaii,-10000,1780,A,Iron_crit
+Big Island Hawaii,1781,2000,P,Iron_crit
+Oro PNG,-10000,1849,A,Iron_crit
+Oro PNG,1850,2000,P,Iron_crit
+Chuuk Islands,-10000,1849,A,Iron_crit
+Chuuk Islands,1850,2000,P,Iron_crit
+Basin of Mexico,-10000,1519,A,Iron_crit
+Basin of Mexico,1520,2000,P,Iron_crit
+Latium,-10000,-401,A,Iron_acc
+Latium,-400,2000,P,Iron_acc
+Paris Basin,-10000,-501,A,Iron_acc
+Paris Basin,-500,2000,P,Iron_acc
+Iceland,-10000,899,A,Iron_acc
+Iceland,900,2000,P,Iron_acc
+Upper Egypt,-10000,-501,A,Iron_acc
+Upper Egypt,-500,2000,P,Iron_acc
+Niger Inland Delta,-10000,-501,A,Iron_acc
+Niger Inland Delta,-500,2000,P,Iron_acc
+Ghanaian Coast,-10000,-301,A,Iron_acc
+Ghanaian Coast,-300,2000,P,Iron_acc
+Crete,-10000,-701,A,Iron_acc
+Crete,-700,2000,P,Iron_acc
+Galilee,-10000,-801,A,Iron_acc
+Galilee,-800,2000,P,Iron_acc
+Southern Mesopotamia,-10000,-701,A,Iron_acc
+Southern Mesopotamia,-700,2000,P,Iron_acc
+Susiana,-10000,-801,A,Iron_acc
+Susiana,-800,2000,P,Iron_acc
+Konya Plain,-10000,-701,A,Iron_acc
+Konya Plain,-700,2000,P,Iron_acc
+Yemeni Coastal Plain,-10000,-501,A,Iron_acc
+Yemeni Coastal Plain,-500,99,A~P,Iron_acc
+Yemeni Coastal Plain,100,2000,P,Iron_acc
+Kachi Plain,-10000,-901,A,Iron_acc
+Kachi Plain,-900,2000,P,Iron_acc
+Middle Ganga,-10000,-901,A,Iron_acc
+Middle Ganga,-900,2000,P,Iron_acc
+Deccan,-10000,-601,A,Iron_acc
+Deccan,-600,2000,P,Iron_acc
+Garo Hills,-10000,-501,A,Iron_acc
+Garo Hills,-500,1399,A~P,Iron_acc
+Garo Hills,1400,2000,P,Iron_acc
+Cambodian Basin,-10000,-301,A,Iron_acc
+Cambodian Basin,-300,2000,P,Iron_acc
+Central Java,-10000,549,A,Iron_acc
+Central Java,550,2000,P,Iron_acc
+Kapuasi Basin,-10000,999,A,Iron_acc
+Kapuasi Basin,1000,2000,P,Iron_acc
+Middle Yellow River Valley,-10000,-301,A,Iron_acc
+Middle Yellow River Valley,-300,2000,P,Iron_acc
+Kansai,-15000,99,A,Iron_acc
+Kansai,100,2000,P,Iron_acc
+Southern China Hills,-10000,-301,A,Iron_acc
+Southern China Hills,-300,2000,P,Iron_acc
+Sogdiana,-10000,-401,A,Iron_acc
+Sogdiana,-400,2000,P,Iron_acc
+Orkhon Valley,-10000,-251,A,Iron_acc
+Orkhon Valley,-250,2000,P,Iron_acc
+Lena River Valley,-10000,-1,A,Iron_acc
+Lena River Valley,1,2000,P,Iron_acc
+Valley of Oaxaca,-10000,1519,A,Iron_acc
+Valley of Oaxaca,1520,2000,P,Iron_acc
+Cahokia,-10000,1849,A,Iron_acc
+Cahokia,1850,2000,P,Iron_acc
+Finger Lakes,-10000,1749,A,Iron_acc
+Finger Lakes,1750,2000,P,Iron_acc
+Cuzco,-10000,1532,A,Iron_acc
+Cuzco,1533,2000,P,Iron_acc
+North Colombia,-10000,1599,A,Iron_acc
+North Colombia,1600,2000,P,Iron_acc
+Lowland Andes,-10000,1849,A,Iron_acc
+Lowland Andes,1850,2000,P,Iron_acc
+Big Island Hawaii,-10000,1780,A,Iron_acc
+Big Island Hawaii,1781,2000,P,Iron_acc
+Oro PNG,-10000,1849,A,Iron_acc
+Oro PNG,1850,2000,P,Iron_acc
+Chuuk Islands,-10000,1849,A,Iron_acc
+Chuuk Islands,1850,2000,P,Iron_acc
+Basin of Mexico,-10000,1519,A,Iron_acc
+Basin of Mexico,1520,2000,P,Iron_acc
+Paris Basin,-3200,-2201,A*,HS
+Paris Basin,-2200,-1001,A*,HS
+Paris Basin,-1000,-901,A~P,HS
+Paris Basin,-900,-701,P*,HS
+Paris Basin,-700,-601,P*,HS
+Paris Basin,-600,-475,P,HS
+Paris Basin,-474,-325,P,HS
+Paris Basin,-324,-175,P,HS
+Paris Basin,-174,-27,P,HS
+Paris Basin,-31,283,A,HS
+Paris Basin,284,473,A,HS
+Paris Basin,481,542,A,HS
+Paris Basin,543,686,A,HS
+Paris Basin,687,750,A,HS
+Paris Basin,752,839,A,HS
+Paris Basin,840,986,A,HS
+Paris Basin,987,1149,A,HS
+Paris Basin,1150,1327,A,HS
+Paris Basin,1328,1449,A,HS
+Paris Basin,1450,1588,A,HS
+Paris Basin,1589,1659,A,HS
+Paris Basin,1660,1788,A,HS
+Iceland,930,1000,P,HS
+Iceland,1001,1262,A,HS
+Iceland,1263,1380,A,HS
+Latium,-3600,-1801,U,HS
+Latium,-1800,-1001,U,HS
+Latium,-1000,-717,A*,HS
+Latium,-716,-510,A~P,HS
+Latium,-509,-265,P,HS
+Latium,-264,-134,P,HS
+Latium,-133,-29,A,HS
+Latium,-31,283,A,HS
+Latium,284,394,A,HS
+Latium,395,457,A,HS
+Latium,493,554,A,HS
+Latium,568,710,A,HS
+Latium,711,903,A,HS
+Latium,904,1197,A,HS
+Latium,1198,1308,A,HS
+Latium,1378,1526,A,HS
+Latium,1527,1647,A,HS
+Latium,1648,1800,A,HS
+Upper Egypt,-4400,-3801,A*,HS
+Upper Egypt,-3800,-3551,A*,HS
+Upper Egypt,-3550,-3301,A*,HS
+Upper Egypt,-3300,-3101,A~P,HS
+Upper Egypt,-3100,-2901,P,HS
+Upper Egypt,-2900,-2651,A~P,HS
+Upper Egypt,-2650,-2351,A*,HS
+Upper Egypt,-2350,-2151,A*,HS
+Upper Egypt,-2150,-2017,A*,HS
+Upper Egypt,-2016,-1721,P*,HS
+Upper Egypt,-1720,-1567,P*,HS
+Upper Egypt,-1550,-1294,A*,HS
+Upper Egypt,-1293,-1071,A*,HS
+Upper Egypt,-1070,-761,P,HS
+Upper Egypt,-760,-665,A*,HS
+Upper Egypt,-664,-526,A*,HS
+Upper Egypt,-525,-405,A*,HS
+Upper Egypt,-404,-343,A*,HS
+Upper Egypt,-305,-218,A*,HS
+Upper Egypt,-217,-32,A*,HS
+Upper Egypt,-31,283,A,HS
+Upper Egypt,284,394,A,HS
+Upper Egypt,395,632,A,HS
+Upper Egypt,661,749,A,HS
+Upper Egypt,750,867,A,HS
+Upper Egypt,868,908,A,HS
+Upper Egypt,909,1170,A,HS
+Upper Egypt,1171,1259,A,HS
+Upper Egypt,1260,1347,A,HS
+Upper Egypt,1348,1411,A,HS
+Upper Egypt,1412,1516,A,HS
+Upper Egypt,1517,1682,A,HS
+Upper Egypt,1683,1839,A,HS
+Niger Inland Delta,-250,49,U,HS
+Niger Inland Delta,50,399,U,HS
+Niger Inland Delta,400,899,U,HS
+Niger Inland Delta,900,999,U,HS
+Niger Inland Delta,1000,1077,P,HS
+Niger Inland Delta,1100,1202,A,HS
+Niger Inland Delta,1235,1410,A,HS
+Niger Inland Delta,1493,1590,A,HS
+Niger Inland Delta,1591,1618,A,HS
+Niger Inland Delta,1640,1711,P*,HS
+Niger Inland Delta,1712,1818,P*,HS
+Ghanaian Coast,1501,1701,P,HS
+Ghanaian Coast,1702,1895,P,HS
+Crete,-7000,-3001,U,HS
+Crete,-3000,-1901,U,HS
+Crete,-1900,-1701,P,HS
+Crete,-1700,-1451,P,HS
+Crete,-1450,-1301,P,HS
+Crete,-1300,-1201,P,HS
+Crete,-1200,-1001,P,HS
+Crete,-1000,-711,P*,HS
+Crete,-710,-501,P*,HS
+Crete,-500,-322,A,HS
+Crete,-323,-69,A,HS
+Crete,-31,283,A,HS
+Crete,284,394,A,HS
+Crete,395,607,A,HS
+Crete,632,823,A,HS
+Crete,824,960,A,HS
+Crete,961,1072,A,HS
+Crete,1073,1203,A,HS
+Crete,1204,1669,A,HS
+Galilee,-2000,-1181,P,HS
+Galilee,-1180,-1031,P*,HS
+Galilee,-1030,-722,P*,HS
+Galilee,-721,-539,A,HS
+Galilee,-538,-331,A,HS
+Galilee,-300,-199,A,HS
+Galilee,-200,-104,A,HS
+Galilee,-103,-62,A,HS
+Konya Plain,-9600,-7001,A*,HS
+Konya Plain,-7000,-6601,A*,HS
+Konya Plain,-6600,-6001,A*,HS
+Konya Plain,-6000,-5501,A*,HS
+Konya Plain,-5500,-5001,A*,HS
+Konya Plain,-5000,-3001,A*,HS
+Konya Plain,-3000,-2001,P,HS
+Konya Plain,-2000,-1701,P*,HS
+Konya Plain,-1650,-1501,P*,HS
+Konya Plain,-1500,-1400,P*,HS
+Konya Plain,-1344,-1181,P,HS
+Konya Plain,-1180,-901,P*,HS
+Konya Plain,-900,-696,A*,HS
+Konya Plain,-670,-547,A*,HS
+Konya Plain,-546,-334,A*,HS
+Konya Plain,-300,-282,A*,HS
+Konya Plain,-281,-190,A*,HS
+Konya Plain,-129,-95,A*,HS
+Konya Plain,-31,283,A,HS
+Konya Plain,284,457,A,HS
+Konya Plain,458,607,A,HS
+Konya Plain,632,866,A,HS
+Konya Plain,867,1072,A,HS
+Konya Plain,1093,1243,A,HS
+Konya Plain,1263,1326,A,HS
+Konya Plain,1393,1402,A,HS
+Konya Plain,1421,1516,A,HS
+Konya Plain,1517,1682,A,HS
+Konya Plain,1683,1838,A,HS
+Konya Plain,1839,1922,A,HS
+Susiana,-7800,-7201,U,HS
+Susiana,-7200,-7001,U,HS
+Susiana,-7000,-6001,U,HS
+Susiana,-6000,-5701,U,HS
+Susiana,-5700,-5101,U,HS
+Susiana,-5100,-4701,U,HS
+Susiana,-4700,-4301,U,HS
+Susiana,-4300,-3801,A*,HS
+Susiana,-3800,-3101,A*,HS
+Susiana,-3100,-2676,A*,HS
+Susiana,-2675,-2251,A*,HS
+Susiana,-2250,-2113,P*,HS
+Susiana,-2112,-2029,P,HS
+Susiana,-2028,-1901,A*,HS
+Susiana,-1900,-1701,A*,HS
+Susiana,-1700,-1501,A*,HS
+Susiana,-1500,-1401,A*,HS
+Susiana,-1400,-1201,A*,HS
+Susiana,-1200,-1101,A*,HS
+Susiana,-1100,-901,A*,HS
+Susiana,-900,-744,A*,HS
+Susiana,-743,-647,A*,HS
+Susiana,-612,-540,A*,HS
+Susiana,-539,-331,A*,HS
+Susiana,-312,-144,A*,HS
+Susiana,-143,24,A*,HS
+Susiana,25,215,A*,HS
+Susiana,220,498,A*,HS
+Susiana,499,642,A*,HS
+Susiana,663,749,A,HS
+Susiana,750,946,A,HS
+Susiana,947,1055,A,HS
+Susiana,1056,1190,A,HS
+Susiana,1191,1207,A,HS
+Susiana,1263,1335,A,HS
+Susiana,1394,1470,A,HS
+Susiana,1471,1504,A,HS
+Susiana,1505,1722,A,HS
+Susiana,1794,1925,A,HS
+Yemeni Coastal Plain,1637,1805,A,HS
+Yemeni Coastal Plain,1873,1919,A,HS
+Kachi Plain,-5500,-4001,U,HS
+Kachi Plain,-4000,-3201,U,HS
+Kachi Plain,-3200,-2501,U,HS
+Kachi Plain,-2500,-2101,A*,HS
+Kachi Plain,-2100,-1801,A*,HS
+Kachi Plain,-1800,-1301,U,HS
+Kachi Plain,-1300,-551,U,HS
+Kachi Plain,-550,-329,A*,HS
+Kachi Plain,-303,-194,A,HS
+Kachi Plain,-145,-96,A*,HS
+Kachi Plain,-95,21,A*,HS
+Kachi Plain,30,250,A*,HS
+Kachi Plain,251,495,A*,HS
+Kachi Plain,496,531,P*,HS
+Kachi Plain,532,641,A*,HS
+Kachi Plain,670,750,A,HS
+Kachi Plain,750,861,A,HS
+Kachi Plain,862,1192,A,HS
+Kachi Plain,1193,1206,A,HS
+Kachi Plain,1207,1339,A,HS
+Kachi Plain,1340,1519,A,HS
+Kachi Plain,1526,1740,A,HS
+Kachi Plain,1748,1826,A,HS
+Middle Ganga,-600,-325,A~P,HS
+Deccan,-2700,-1201,U,HS
+Deccan,-1200,-300,U,HS
+Deccan,-205,-101,A,HS
+Deccan,-100,203,A,HS
+Deccan,286,335,A,HS
+Deccan,351,450,A,HS
+Deccan,451,540,A,HS
+Deccan,541,756,A,HS
+Deccan,757,973,A,HS
+Deccan,974,1055,A,HS
+Deccan,1192,1253,A,HS
+Deccan,1280,1310,A,HS
+Deccan,1337,1646,A,HS
+Deccan,1687,1720,A,HS
+Deccan,1800,1857,A,HS
+Deccan,1858,1946,A,HS
+Garo Hills,1775,1867,P,HS
+Garo Hills,1868,1956,A,HS
+Sogdiana,-3500,-2001,U,HS
+Sogdiana,-2000,-1401,A*,HS
+Sogdiana,-1400,-1000,U,HS
+Sogdiana,-999,-751,U,HS
+Sogdiana,-750,-600,U,HS
+Sogdiana,-520,-330,A*,HS
+Sogdiana,-300,-249,A*,HS
+Sogdiana,-248,-130,A*,HS
+Sogdiana,-129,29,U,HS
+Sogdiana,30,230,A*,HS
+Sogdiana,231,425,A*,HS
+Sogdiana,426,563,P*,HS
+Sogdiana,564,603,P*,HS
+Sogdiana,604,711,A*,HS
+Sogdiana,750,875,A,HS
+Sogdiana,876,990,A,HS
+Sogdiana,991,1089,A,HS
+Sogdiana,1090,1157,A,HS
+Sogdiana,1158,1212,A,HS
+Sogdiana,1263,1361,P*,HS
+Sogdiana,1370,1526,A,HS
+Sogdiana,1599,1747,A,HS
+Orkhon Valley,-1400,-300,P*,HS
+Orkhon Valley,-209,-60,P*,HS
+Orkhon Valley,-59,99,P*,HS
+Orkhon Valley,100,250,A*,HS
+Orkhon Valley,300,551,A*,HS
+Orkhon Valley,583,630,P*,HS
+Orkhon Valley,684,744,P*,HS
+Orkhon Valley,745,840,A~P,HS
+Orkhon Valley,841,907,P*,HS
+Orkhon Valley,960,1125,P,HS
+Orkhon Valley,1126,1205,P,HS
+Orkhon Valley,1206,1367,P,HS
+Orkhon Valley,1368,1580,P,HS
+Orkhon Valley,1581,1689,A,HS
+Orkhon Valley,1695,1745,A*,HS
+Lena River Valley,1400,1642,A*,HS
+Lena River Valley,1643,1900,A*,HS
+Middle Yellow River Valley,-5000,-3501,A*,HS
+Middle Yellow River Valley,-3500,-3001,P*,HS
+Middle Yellow River Valley,-3000,-1900,P*,HS
+Middle Yellow River Valley,-1850,-1651,P,HS
+Middle Yellow River Valley,-1650,-1251,P,HS
+Middle Yellow River Valley,-1250,-1123,P,HS
+Middle Yellow River Valley,-1122,-795,P,HS
+Middle Yellow River Valley,-794,-489,P,HS
+Middle Yellow River Valley,-488,-223,P,HS
+Middle Yellow River Valley,-202,9,A*,HS
+Middle Yellow River Valley,25,219,A,HS
+Middle Yellow River Valley,265,317,A,HS
+Middle Yellow River Valley,386,557,A,HS
+Middle Yellow River Valley,581,617,A,HS
+Middle Yellow River Valley,618,762,A,HS
+Middle Yellow River Valley,763,907,A,HS
+Middle Yellow River Valley,960,1126,A,HS
+Middle Yellow River Valley,1127,1234,A,HS
+Middle Yellow River Valley,1271,1367,P*,HS
+Middle Yellow River Valley,1368,1463,P,HS
+Middle Yellow River Valley,1464,1643,A,HS
+Middle Yellow River Valley,1644,1795,A,HS
+Middle Yellow River Valley,1796,1912,A,HS
+Southern China Hills,1701,1895,A*,HS
+Southern China Hills,1896,1941,A*,HS
+Kansai,-300,249,A*,HS
+Kansai,250,537,A~P,HS
+Kansai,538,710,A*,HS
+Kansai,794,1184,A,HS
+Kansai,1185,1333,A,HS
+Kansai,1336,1466,A,HS
+Kansai,1467,1567,A,HS
+Kansai,1568,1602,A,HS
+Kansai,1603,1868,A,HS
+Cambodian Basin,225,539,U,HS
+Cambodian Basin,540,639,A*,HS
+Cambodian Basin,640,801,P*,HS
+Cambodian Basin,802,1079,A~P,HS
+Cambodian Basin,1080,1219,A*,HS
+Cambodian Basin,1220,1431,A*,HS
+Cambodian Basin,1432,1593,A*,HS
+Cambodian Basin,1594,1767,A*,HS
+Cambodian Basin,1782,1873,A*,HS
+Central Java,-400,499,U,HS
+Central Java,500,731,A~P,HS
+Central Java,732,1019,P*,HS
+Central Java,1049,1222,P*,HS
+Central Java,1291,1518,P*,HS
+Central Java,1568,1703,A~P,HS
+Kapuasi Basin,1650,1841,P,HS
+Kapuasi Basin,1842,1987,P*,HS
+Oro PNG,1734,1883,A*,HS
+Oro PNG,1884,1942,A*,HS
+Big Island Hawaii,800,1199,A*,HS
+Big Island Hawaii,1200,1349,A*,HS
+Big Island Hawaii,1350,1649,P*,HS
+Big Island Hawaii,1650,1777,P,HS
+Big Island Hawaii,1778,1819,P,HS
+Big Island Hawaii,1820,1854,A,HS
+Chuuk Islands,1775,1885,P,HS
+Chuuk Islands,1886,1948,P,HS
+Valley of Oaxaca,-1400,-1151,A*,HS
+Valley of Oaxaca,-1150,-701,A*,HS
+Valley of Oaxaca,-700,-501,P,HS
+Valley of Oaxaca,-500,-301,P,HS
+Valley of Oaxaca,-300,-101,P,HS
+Valley of Oaxaca,-100,199,P,HS
+Valley of Oaxaca,200,499,P,HS
+Valley of Oaxaca,500,899,P,HS
+Valley of Oaxaca,900,1520,P,HS
+Valley of Oaxaca,1521,1700,A,HS
+Cahokia,-600,-151,A*,HS
+Cahokia,-150,299,A*,HS
+Cahokia,300,449,A*,HS
+Cahokia,450,599,A*,HS
+Cahokia,600,749,A*,HS
+Cahokia,750,899,A*,HS
+Cahokia,900,1049,A*,HS
+Cahokia,1050,1199,P,HS
+Cahokia,1200,1274,P*,HS
+Cahokia,1275,1399,P*,HS
+Cahokia,1400,1639,A*,HS
+Cahokia,1640,1832,A*,HS
+Finger Lakes,1566,1713,P,HS
+Finger Lakes,1714,1848,A,HS
+Cuzco,1,199,U,HS
+Cuzco,200,499,U,HS
+Cuzco,500,649,U,HS
+Cuzco,650,999,P,HS
+Cuzco,1000,1249,U,HS
+Cuzco,1250,1399,U,HS
+Cuzco,1400,1531,P,HS
+Cuzco,1532,1700,A,HS
+North Colombia,250,1049,A*,HS
+North Colombia,1050,1524,A*,HS
+Lowland Andes,1534,1830,A*,HS
+Lowland Andes,1831,1931,A*,HS
