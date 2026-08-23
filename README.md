@@ -6,4 +6,4 @@ This repository contains the data and code necessary to replicate the scaling an
 To reconstruct the Seshat data set from the raw data run the R files in order (starting with 0UpdatePolVars.R 
 then 1ProcDat.R and 2AggrAvg.R) or simply import scalingData.csv as "scalingData" in the 3Scaling.R script.
 
-All of the statistical analyses are contained in 4Scaling.R.
+All of the statistical analyses are contained in 3Scaling.R.
