@@ -3,6 +3,8 @@ library(latex2exp)
 library(ggplot2)
 library(ggpmisc)
 library(gridExtra)
+library(boot)
+library(patchwork)
 setwd("/")
 load("TableData.Rdata")
 
@@ -35,58 +37,8 @@ summary(lm(log10(Hier)~Pop, data=scalingData[which(scalingData$Hier>0),]))
 
 
 # Scaling of infrastructural length with energy consumption in contemporary societies
-large_scale_infra1 <- read.csv("/Roadways-Energy.csv")
+large_scale_infra <- read.csv("Roadways-Energy.csv")
 summary(lm(log10(TFC_PJ_IEA)~log10(Total_km), data=large_scale_infra[which(large_scale_infra$Country!='Singapore'),]))
-
-
-
-
-
-
-
-
-### Figure 1
-
-fit1a <- lm(log10(TFC_PJ_IEA)~log10(Total_km), data=large_scale_infra[which(large_scale_infra$Country!='Singapore'),])
-slope1a <- round(coef(fit1a)[2], 2)
-intercept1a <- round(coef(fit1a)[1], 2)
-r21a <- round(summary(fit1a)$adj.r.squared, 2)
-
-fig1a = ggplot(data=large_scale_infra[which(large_scale_infra$Country!='Singapore'),], aes(x = log10(Total_km), y = log10(TFC_PJ_IEA))) +  
-  geom_point(color='grey', alpha=0.5) +
-  geom_smooth(formula = y~x, method='lm', se=FALSE, color = adjustcolor('navy', alpha.f = 0.5)) +
-  annotate("text", x = 5.5, y = 5, hjust = 0.5,
-           label = paste0("italic(log~E) == ", intercept1a, " + ", slope1a, 
-                          " * italic(log~Ln) ~~ ~~ italic(R^2) == ", r21a),
-           parse = TRUE) +
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 6), limits = c(4, 7) ) +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 6)) + 
-  xlab(TeX("log Length of Road Network (km), $L_n$")) +
-  ylab(TeX("log $E$ (PJ/y)")) +
-  theme_minimal()
-
-
-
-fit1b <- lm(log_total_E~log_rail_lines_km, data=large_scale_infra2)
-slope1b <- round(coef(fit1b)[2], 2)
-intercept1b <- round(coef(fit1b)[1], 2)
-r21b <- round(summary(fit1b)$adj.r.squared, 2)
-
-fig1b = ggplot(data=large_scale_infra2, aes(x = log_total_E, y = log_rail_lines_km)) +  
-  geom_point(color='grey', alpha=0.5) +
-  geom_smooth(formula = y~x, method='lm', se=FALSE, color = adjustcolor('navy', alpha.f = 0.5)) +
-  annotate("text", x = 10.5, y = 6, hjust = 0.5,
-           label = paste0("italic(log~E) == ", intercept1b, " + ", slope1b, 
-                          " * italic(log~Ln) ~~ ~~ italic(R^2) == ", r21b),
-           parse = TRUE) +
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 6),, limits = c(8.5, 13) ) +
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 6)) + 
-  xlab(TeX("log Length of Rail Network (km), $L_n$")) +
-  ylab(TeX("log $E$ (TOE/y)")) +
-  theme_minimal()
-
-fig1a + fig1b
-
 
 
 
@@ -410,14 +362,14 @@ me <- rbind(
   mm(scalingData, "Terr"),
   mm(scalingData, "Complexity"),
   comp("Gov"), comp("Idea"), comp("Infra"),
-  comp("Info"), comp("MilTech"), comp("Hier", sub = "AL")
+  comp("Info"), comp("MilTech"), comp("Hier")
 )
 me
 
 ## 2.3. Breakdown: error needed to change the conclusions
 ## Error in population only steepens the slopes. The territory exponent leaves its
 ## predicted range when the corrected slope passes the upper bound of 1 - 2*beta.
-upper_A <- 0.885                      # BCa upper bound of 1 - 2*beta (Table 2)
+upper_A <- boot.ci(bI, type = "bca", index = 2)$bca[5]                      # BCa upper bound of 1 - 2*beta (Table 2)
 
 dA <- scalingData[!is.na(scalingData$Pop) & !is.na(scalingData$Terr), ]
 bA <- unname(coef(lm(Terr ~ Pop, data = dA))[2])
@@ -471,7 +423,7 @@ res <- list(
   lev(scalingData, "Complexity"),
   lev(logc("Gov"), "logGov"),         lev(logc("Idea"), "logIdea"),
   lev(logc("Infra"), "logInfra"),     lev(logc("Info"), "logInfo"),
-  lev(logc("MilTech"), "logMilTech"), lev(logc("Hier", "AL"), "logHier")
+  lev(logc("MilTech"), "logMilTech"), lev(logc("Hier"), "logHier")
 )
 tab <- do.call(rbind, res); tab[, 5:11] <- round(tab[, 5:11], 3); tab
 
