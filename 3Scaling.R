@@ -1,11 +1,8 @@
 #### SCALING ANALYSIS ####
 library(latex2exp)
 library(ggplot2)
-library(ggpmisc)
-library(gridExtra)
 library(boot)
 library(patchwork)
-setwd("/")
 load("TableData.Rdata")
 
 
@@ -37,8 +34,8 @@ summary(lm(log10(Hier)~Pop, data=scalingData[which(scalingData$Hier>0),]))
 
 
 # Scaling of infrastructural length with energy consumption in contemporary societies
-large_scale_infra <- read.csv("Roadways-Energy.csv")
-summary(lm(log10(TFC_PJ_IEA)~log10(Total_km), data=large_scale_infra[which(large_scale_infra$Country!='Singapore'),]))
+large_scale_infra1 <- read.csv("Roadways-Energy.csv")
+summary(lm(log10(TFC_PJ_IEA)~log10(Total_km), data=large_scale_infra1[which(large_scale_infra1$Country!='Singapore'),]))
 
 
 
@@ -295,7 +292,8 @@ comps <- list(
   Infra   = subset(scalingData, Infra > 0),
   Info    = subset(scalingData, Info > 0),
   MilTech = subset(scalingData, MilTech > 0),
-  Hier    = subset(scalingData, Hier > 0)      
+  Hier    = subset(scalingData, Hier > 0)
+)
 
 set.seed(20261027)
 res <- do.call(rbind, lapply(names(comps), function(v) {
@@ -329,7 +327,7 @@ for (v in c("Gov","Idea","Infra","Info","MilTech")) {
 
 # 2. Measurement of error in log10 population 
 
-raw <- read.csv("/home/david/work/complexity/full_stripped_oct2020.csv", stringsAsFactors = FALSE)
+raw <- read.csv("full_stripped_oct2020.csv", stringsAsFactors = FALSE)
 
 ## 2.1. Measurement error variance of log10 population from Seshat's coded ranges
 pop <- raw[raw$Variable == "Polity Population", ]
