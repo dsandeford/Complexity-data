@@ -12,7 +12,7 @@ setwd("/")
 {#################################### Aggregate variables into CCs ###########################
   AggrSCDat <- data.frame(NGA=TSDat$NGA, PolID=TSDat$PolID, Time=TSDat$Time,
                           Pop=NA, Terr=NA,                                                                # Social scale and area 
-                          Hier=NA, Gov=NA, Infra=NA, Info=NA, Idea=NA, MilTech=NA, Complexity=NA, Agri=NA,    # CCs
+                          Hier=NA, AL=NA, Gov=NA, Infra=NA, Info=NA, Idea=NA, MilTech=NA, Complexity=NA, Agri=NA,    # CCs
                           Cap=NA )                   # CCs/language data used for imputation/Region used for k-fold testing
   for(i in 1:nrow(TSDat)){
     if(TSDat$PolPop[i] != 0 & TSDat$PolPop[i] != -999){AggrSCDat$Pop[i] <- log10(TSDat$PolPop[i])}       ### Pop
@@ -24,6 +24,10 @@ setwd("/")
     dt <- dt[dt != -999]
     if(length(dt) > 0){AggrSCDat$Hier[i] <- mean(dt)}                             
     
+    dt <- subset(TSDat, select = c(AdmLev))[i,]                                     ### AL = AdmLev
+    dt <- dt[dt != -999]
+    if(length(dt) > 0){AggrSCDat$AL[i] <- dt} 
+
     
     dt <- subset(TSDat, select = c(ProfOfficer, ProfSoldier, ProfPriest,FullTBur,ExamSyst,MeritProm,GovtBldg,
                                    Court,LegCode,Judge,Lawyer,ConstrGov,ConstrNonGov,Impeach))[i,] #
