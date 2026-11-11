@@ -1,6 +1,6 @@
 # Complexity-data
 
-Data and code for Sandeford, Turchin, Hamilton and Lobo, "Social complexity promotes cooperation and functional integration in large-scale societies" (*PNAS Nexus*, 2026).
+Data and code for Sandeford, Turchin, Hamilton and Lobo, "Social complexity promotes cooperation and functional integration in large-scale societies" (submitted to *PNAS Nexus*, 2026).
 
 ## Contents
 
